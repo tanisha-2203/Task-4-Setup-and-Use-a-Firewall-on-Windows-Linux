@@ -12,3 +12,13 @@ sudo ufw delete deny 23/tcp    # Remove the block rule (Remove Test Rule (Telnet
 
 Reset Firewall (Optional)
 To revert all changes to default:  sudo ufw reset
+
+
+
+Summary of How UFW Filters Traffic 
+UFW filters network traffic based on rules you define. It can:
+        Block or Allow Traffic: You can specify which ports to block or allow (e.g., blocking Telnet on port 23).
+        Use Protocols: UFW can filter traffic based on protocols like TCP and UDP.
+        Enhance Security: By configuring these rules, UFW helps protect your system from unauthorized access and potential threats.
+
+   
